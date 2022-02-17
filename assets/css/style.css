@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* alphanumerical values */
+body {
+    background-color: #d9dcd6;
+}
+
+/* apply style to <header> */
+header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between
+    flex-wrap: wrap
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #e49835;
+    color: #04176e;
+}
+
+header h1 {
+    font-size: 48px;
+    color: #04176e;
+}
+
+header a {
+  color: #04176e;
+  text-decoration: none;
+}
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    justify-content: flex-end
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+header nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+header nav ul li {
+    margin-left: 25px;
+}
+/* Hero Style Start */
+.hero {
+    background-image: url('../images/color coding b.jpg');
+    height: 200px;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+   }
+.hero h2 {
+  color:white;
+  display:flex;
+  margin-left: 55px;
+}
+.hero-subtitle {
+  display:flex
+  
+ }
+  /* About me Style Starts! */
+
+  .content {
+    margin: 50px auto;
+    padding: 30px;
+    height: 300px;
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #ebf0f3;
+    color: #04176e;
+  }
+  .about-me {
+    margin: 70px auto;
+    font-size: 35px
+    }
+    .about-me-text {
+      margin: 50px auto;
+      padding-bottom: 50px;
+      width: 80%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content:right;
+}
+ 
+
+  /* "Work boxes" starts */
+
+  .my-coding-work {
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+ 
+  .my-coding-work {
+    margin: 20px;
+   }
+  
+  .work-img {
+    margin-right: 30px;
+  }
+  
+  
+
+  
+  
