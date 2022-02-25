@@ -29,6 +29,7 @@ header a {
   color: #04176e;
   text-decoration: none;
 }
+
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -36,14 +37,16 @@ header nav {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
+
 header nav ul {
   display: flex;
   list-style-type: none;
 }
 
 header nav ul li {
-    margin-left: 25px;
+  margin-left: 25px;
 }
+
 /* Hero Style Start */
 .hero {
     background-image: url('../images/color coding b.jpg');
@@ -52,71 +55,67 @@ header nav ul li {
     background-size: cover;
     background-position: center;
     position: relative;
-   }
+}
+
 .hero h2 {
   color:white;
   display:flex;
   margin-left: 55px;
 }
+
 .hero-subtitle {
   display:flex;
   margin: 100px 80px;
-  }
+}
 
- 
- 
-  /* About me Style Starts! */
-
-  .content {
-    margin: 30px auto;
-    padding: 50px;
-    display: flex;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: white;
-    color: #04176e;
-  }
+/* About me Style Starts! */
+.content {
+  margin: 30px auto;
+  padding: 50px;
+  display: flex;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: white;
+  color: #04176e;
+}
   
     
-  /* "Work boxes" starts */
-
+/* "Work Section Starts! */
   
-  
-  .Work {
-    text-align:left;
-  }
+.Work {
+  text-align:left;
+}
  
-   
-  .horiseon {
-    width: 20%;
-    
+.horiseon {
+  width: 20%;
+}
 
-  }
-   
-  .title {
-    min-width: 300px;
-  }
+/* applying style to About Me-Work-Footer titles */
+.title {
+  min-width: 300px;
+}
 
- 
-  .contact-sources h5 {
-    margin-right: 20%;
-   }
-  .contact-sources {
-    width: 45%
-  }
+/* "applying style to footer hyperlinks!" */
+.contact-sources h5 {
+  margin-right: 20%;
+}
 
-    .flex {
-      display: flex;
-      flex-wrap: wrap;
-    }
+.contact-sources {
+  width: 45%
+}
 
+/* applying style to About Me - Work - Footer */
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
          
-    .left {
-      width:25%;
-    }
+.left {
+  width:25%;
+}
 
-    .right {
-      width:50%;
-    }
+.right {
+  width:50%;
+}
     
     
   
