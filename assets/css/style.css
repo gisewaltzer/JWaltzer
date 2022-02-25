@@ -117,7 +117,25 @@ header nav ul li {
   width:50%;
 }
     
-    
+/*Adjust to small screens*/
+@media screen and (max-width: 575px) {
+  .hero {
+    width: 100%;
+  }
+
+ 
+  .footer {
+    width: 100%;
+  }
+
+  .content img {
+    size-adjust: 50%;
+    width: 90%;
+  }
+  
+}
+
+  
   
 
   
