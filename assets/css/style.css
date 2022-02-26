@@ -49,7 +49,7 @@ header nav ul li {
 
 /* Hero Style Start */
 .hero {
-    background-image: url('../images/color coding b.jpg');
+    background-image: url('../images/hero.jpg');
     height: 200px;
     display: flex;
     background-size: cover;
@@ -133,6 +133,10 @@ header nav ul li {
     width: 90%;
   }
   
+  .header ul {
+    flex-direction: column;
+    
+  }
 }
 
   
